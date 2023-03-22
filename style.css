@@ -1,0 +1,50 @@
+/*Los tamaños máximos estan limitados para que el diseño
+mantenga una presentación agradable en pantallas grandes*/
+
+
+#hero, #bioOficial, #bioNoOficial, #bioNoRel ,#trabajos, #contacto, #footer ,#acerca, #contacto {
+    max-width: 960px;
+   
+}
+
+nav{
+    max-width: 1200px;
+}
+
+#hero{
+   min-height: 400px;
+   
+}
+
+#contacto{
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  height:500px;
+}
+
+li{
+    margin-bottom: 0.5rem;
+    display:flex;
+    justify-content: space-between;
+   
+}
+
+
+.card{
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+
+.formularios{
+    max-width: 600px!important;
+   
+}
+
+.posicion{
+   position:relative;
+   top:-300px;   
+    
+}
+
+
+

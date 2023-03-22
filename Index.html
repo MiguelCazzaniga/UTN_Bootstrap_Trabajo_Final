@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Etiquetas Meta-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Otros datos header-->
+    <title>Portfolio - Bootstrap</title>
+    <!--Seccion Links-->
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+</head>
+<body class="bg-body">
+    <!--Navegador - Inicia-->
+    <nav class="navbar dark navbar-expand-md bg-dark-subtle text-emphasis-dark m-auto">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse align justify-content-between" id="navbar-toggler">
+            <a class="nav-link active" href="#"></a>
+            <ul class="navbar-nav d-flex justify-content-center align-items-center">
+              <li class="nav-item">
+                <a class="nav-link" href="#acerca">Estudios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#trabajos">Proyectos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contacto" >Contactos</a>
+              </li>
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+      <!-- Navegador - Termina-->
+      <!-- Hero Inicia-->
+    <section id="hero"class="container text-white bg-primary  pt-3 my-3" >
+      <div class="row ">        
+        <div id="foto" class="col" >
+              <img   src="./imagenes/111-v5.jpg" alt="Imagen de Miguel Cazzaniga" class="rounded mx-auto d-block">                 
+        </div>
+      </div>
+      <div class="row">
+        <div id="badges" class="col m-auto  d-flex  flex-column justify-content-center align-items-center ">        
+            <p class="h1"><b>Miguel Cazzaniga</b></h1>
+            <p class="h5">Professional Front End Developer</p> 
+            <p class="h4">PORTFOLIO LABORAL</p>                
+        </div> 
+      </div>          
+    </section>
+   
+    <!--Hero Termina -->
+    <!--Acerca inicia-->
+    <section id="acerca" class="container  border border-primary mb-5">
+      <h2>Acerca de mí.</h2>
+      <hr>
+      <ul class="pl-2 pr-2">
+      <li>Mi nombre es Miguel, soy de Argentina y tengo 56 años</li>
+      <li> Soy Professional Front End Developer</li>
+      <li>Me recibí en la Universidad tecnológica de Buenos Aires en el año 2.023</li>
+      <li>Aquí debajo puedes ver un detalle de los cursos que he tomado para volver a esta actividad que me apasiona</li>
+      <li>Además: hablo Inglés y Español y dedico muchas horas a ponerme al día con las nuevas tecnologías </li>
+      <li>Estaré encantado de conocerte y escuchar de tus proyectos</li>
+      <li>Puedes dejarme tu correo en el apartado de abajo, y yo te responderé a la brevedad</li>
+      <li>Espero que nos contactemos muy pronto</li>        
+      </ul>
+      <hr>   
+      <p><b>Saludos Cordiales</b></p>
+    </section>
+    <!--Acerca termina-->
+    <!--Estudios Cursados - Inicia-->
+    <!--Certificaciones Oficiales Inicia-->
+    <section id="bioOficial" class="mx-auto my-5">
+      <h2>Cursos con certificaciones oficiales</h2>
+      <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            <b>Front End Developer</b> 
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+          <div class="accordion-body ">
+            <p><strong>UTN FRBA Finalizado en marzo de 2.023</strong><p>
+            <p>   Modalidad E-learning </p>
+            <ul class="m-auto">
+              <li><span><b>Curso</b></span><span><b>Calificación</b></span></li>              
+              <li><span>Desarrollo Web en Bootstrap</span><span>A Calificar</span></li>
+              <li><span>Desarrollo Web en HTML CSS y JS - Nivel Avanzado</span><span>Excelente</span></li>
+              <li><span>Desarrollo Web con JS</span><span>Sobresaliente</span></li>
+              <li><span>Desarrollo Web en HTML y CSS</span><span>Sobresaliente</span></li>             
+            </ul>           
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            <p>Curso de Interfaz de Usuario - <b>UI</b></p> 
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p><strong>UTN FRBA Finalizado en octubre de 2022</strong><p>            
+            <p>Modalidad E-Learning. Calificacion final:<b> Sobresaliente</b></p>  
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            <p>Experto en experiencia de Usuario e Interacciones - <b>UX</b></p> 
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p><strong>UTN FRBA Finalizado en junio de 2022</strong><p>            
+            <p>Modalidad E-Learning. Calificacion final:<b> Muy bueno</b></p>  
+          </div>
+        </div>
+      </div>
+      
+    </section>
+    
+    <!--Certificaciones Oficiales - Finaliza-->
+    
+    <!--Certificaciones No Oficiales Inicia-->
+    <section id="bioNoOficial" class="mx-auto my-5">
+      <h2>Estudios Cursados con certificados No oficiales</h2>
+      <div class="accordion" id="accordionPanelsStayOpenExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+            <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+              Javascript Algorithms and Data Structures - Free Code Camp
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+            <div class="accordion-body">
+              <strong>Finalizado el día 03/02/23</strong>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+             Responsive Web Design - Free Code Camp
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+            <div class="accordion-body">
+              <strong>Finalizado el día 22/11/22 </strong>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+             Figma Essentials Training - BYOL Daniel W Scott
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+            <div class="accordion-body">
+              <strong>Finalizado el día 17/07/22</strong>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+              Adobe Illustrator avanzado - Domestika
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingfour">
+            <div class="accordion-body">
+              <strong>Finalizado el día 08/12/21</strong>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false" aria-controls="panelsStayOpen-collapseFive">
+              Adobe Photoshop Avanzado - Domestika
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFive">
+            <div class="accordion-body">
+              <strong>Finalizado el día 24/04/21</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <!--Certificaciones No Oficiales - Finaliza-->
+  <!--Estudios Y Antencendentes Laborales Relacionados-->
+  <section id="bioNoRel" class="mx-auto my-5">
+    <h2>Estudios y antecedentes laborales relacionados </h2>
+    <div class="accordion" id="accordionPanelsStayOpenExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+            Programador Free Lancer
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+          <div class="accordion-body">
+            <strong>1.993 - 1.991</strong> Trabajé como programador FreeLancer en la ciudad de Resistencia. Durante ese período desarrollé pequeños sistemas de facturación, control de stock (muy simples) y un sistema de control de legajos y estado de cuenta de los alumnos  para un colegio privado. 
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+           Ingeniería en Sistemas de Información UTN FRR Resistencia
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+          <div class="accordion-body">
+            <strong>1.987 - 1.990 </strong> Cursé casi cuatro años de la carrera. 2 años aprobados completos. Tercer año regularizado pero sin rendir ninguna materia. Cuarto año cursado un semestre.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+           Curso Intensivo de idioma Inglés
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+          <div class="accordion-body">
+            <strong>1.984-1985</strong>Estudiante de intercambio en USA durante un año
+          </div>
+        </div>
+      </div>
+      
+     
+    </div>
+</section>
+<!--Certificaciones No Oficiales - Finaliza-->
+
+<!-- Estudios Cursados - Termina-->
+    <!-- Ejemplos de Codificación - Inicia-->
+    <section id ="trabajos" class="m-auto">
+        <h2>Casos de Estudio</h2>
+        <div id="grilla" class="container-fluid ">
+          <!--Tarjeta 1-->
+          <div class="row ">
+            <div class="col d-flex flex-wrap justify-content-around ">
+              <div class="card" style="width: 18rem;">
+                <img src="./imagenes/Trabajo Práctico - Página de Juego.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Uso de Js</h5>
+                  <p class="card-text">Páginas desarrolladas incorporando JS para mejorar la interacción con el usuario</p>
+                  <a href="#" class="btn btn-primary">Ir a la página</a>
+                </div>
+              </div>
+          <!--Tarjeta 2-->
+              <div class="card" style="width: 18rem;">
+                <img src="./imagenes/FreeCodeCamp_.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">FreeCode Camp</h5>
+                  <p class="card-text">Detalle de cursos Aprobados en la Plataforma FreeCodeCamp. Detalle de los tópicos tratados</p>
+                  <a href="#" class="btn btn-primary">Ir a FreeCodeCamp</a>
+                </div>
+              </div>
+          <!--Tarjeta 3-->
+              <div class="card" style="width: 18rem;">
+                <img src="./imagenes/Mikaela Speakers - Caso de Estudio.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Mikaela S. Codificación</h5>
+                  <p class="card-text">Página del diseño versión Desktop codificada en HTML y CSS3 solamente</p>
+                  <a href="#" class="btn btn-primary">Ir a la Página</a>
+                </div>
+              </div>
+          <!--Tarjeta 4-->
+              <div class="card" style="width: 18rem;">
+                <img src="./imagenes/Naranja-I.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Curso de UI</h5>
+                  <p class="card-text">Desarrollo de Interfaces Mobile respetando los parámetros de Human Desing</p>
+                  <a href="#" class="btn btn-primary">Abrir PDF</a>
+                </div>
+              </div>
+          <!--Tarjeta 5-->
+              <div class="card" style="width: 18rem;">
+                <img src="./imagenes/Anita 2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Curso de UX</h5>
+                  <p class="card-text">Desarrollo de la "Persona Anita". Parte del caso de estudio para análisis de puntos de dolor</p>
+                  <a href="#" class="btn btn-primary">Abrir PDF</a>
+                </div>
+              </div>
+          <!--Tarjeta 6-->
+              <div class="card" style="width: 18rem;">
+                <img src="./imagenes/▶ Mobile HI FI - Micaela Speakers HIFI - Mobile - .jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Figma</h5>
+                  <p class="card-text">Uso de la aplicación para modelar en alta y baja intefaces mobile y Desktop </p>
+                  <a href="#" class="btn btn-primary">Ir al Modelo</a>
+                </div>
+              </div>
+            </div>            
+
+          </div>
+        
+        </div>
+    </section>
+    <!-- Ejemplo de codificacion -Termina-->
+
+    <!-- Contáctenme Inicia-->
+    <section id="contacto" class="container m-auto bg-primary">
+      <div class="container d-flex flex-column bg-warning formularios py-3">
+        <h2>Escríbeme</h2>  
+            
+      <form id="my-form" action="https://formspree.io/f/xyyapowq" method="POST" class="form-group">
+     
+        <label>Nombre:</label>
+        <input type="text" name="nombre" class="form-control" required />
+
+        <label>Email:</label>
+        <input type="email" name="email" class="form-control" required />
+
+        <label>Mensaje:</label>
+        <textarea rows="5" name="message" id="message" placeholder="Escriba aqui su mensaje" class="form-control mb-3"  required></textarea>
+        <div class="d-flex justify-content-end pr-5 mx-5 ">
+          <button id="my-form-button"  class="btn btn-primary btn-lg">Enviar</button>
+          <p id="my-form-status"></p>
+        </div>
+      </form>
+  </div>
+
+  <!--Ventana de aviso inicia-->
+  
+  <!--Se inyecta HTML desde el archvo JS cuando se obtiene un envio exitoso-->
+  <div id="mensaje" class=" container   d-flex justify-content-center posicion  ">
+  <!-- Se retira el HTML desde JS luego de dar aviso-->
+ 
+  <!--Ventana de aviso Termina-->
+   </section>
+   
+    <!-- Contáctenme - Termina-->
+    <!--Footer Inicia -->
+    <Footer id="footer" class="container-fluid my-auto  mt-3 mb-3 bg-dark-subtle text-emphasis-dark ">
+      <div class="row pt-3">
+        <div class="col-6">
+          <p>Miguel Cazzaniga - Portfolio 2023</p>
+        </div> 
+        <div class="col-6">
+          <p class="text-end">Resistencia - Argentina</p>
+        </div>
+      </div> 
+      <div class="row p-2"> 
+        <div class="col-12 d-flex justify-content-center">
+          <img src="./imagenes/Imagen_Footer.svg" alt="logos"/>
+        </div>
+      <div>
+      </div>
+      
+    </Footer>
+    <!--Footer - Termina-->
+   
+    <script src="myscripts.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
